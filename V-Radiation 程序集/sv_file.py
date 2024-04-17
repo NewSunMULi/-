@@ -30,7 +30,7 @@ class SV_File:
 
     def getAllScore(self):
         return_list1 = []
-        for i in self.dataList2[:-2]:
+        for i in self.dataList2[:6]:
             for j in range(len(i[1:])):
                 i[j + 1] = int(i[j + 1])
                 return_list1.append(i[j + 1])

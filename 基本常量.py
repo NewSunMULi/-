@@ -36,12 +36,12 @@ with open("RTY.json", "r", encoding="utf-8") as f:
     RTY = js.load(f)
 
 
-def 打包exe(文件名=None, icon图标路径="图标.ico", 黑屏=False):
+def 打包exe(file=None, icon图标路径="图标.ico", 黑屏=False):
     import os
     if 黑屏:
-        os.system(f"pyinstaller -F -i {icon图标路径} -F {文件名}")
+        os.system(f"pyinstaller -F -i {icon图标路径} -F {file}")
     else:
-        os.system(f"pyinstaller -w -i {icon图标路径} -F {文件名}")
+        os.system(f"pyinstaller -w -i {icon图标路径} -F {file}")
 
 
 class 玄氏评级:
@@ -355,4 +355,4 @@ class 玄氏评级:
 
 
 if __name__ == "__main__":
-    打包exe("D:\\提交\\jk-1\\礼包\\凯子的生日礼物\\新日暮里唱片机.py")
+    打包exe(file=r'"./V-Radiation 程序集/辐射组集合程序/V_RtGL程序.py"')

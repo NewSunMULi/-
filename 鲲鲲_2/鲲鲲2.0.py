@@ -402,7 +402,7 @@ class V_Rt2(QtWidgets.QWidget, Ui_Form):
             self.web = QWebEngineView(self.widget_8)
             self.web.setGeometry(QRect(0, 50, 1280, 720))
             self.web.show()
-            self.web.load(QUrl("https://search.bilibili.com/all?"))
+            self.web.load(QUrl("https://search.bilibili.com"))
 
 
 class DL(QtWidgets.QWidget, ld.Ui_Form):

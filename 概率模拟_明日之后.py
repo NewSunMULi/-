@@ -100,5 +100,3 @@ b.place(x=750, y=30)
 c = Button(scm, text="快速统计", command=快速获取数据)
 c.place(x=250, y=10)
 scm.mainloop()
-
-快速获取数据()

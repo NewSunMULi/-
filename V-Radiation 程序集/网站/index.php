@@ -1,11 +1,1 @@
-<?php
-    if($_SERVER["PHP_SELF"] == "http://kmjysm.cn/index.php"){
-        header("Location: index2.html");
-    }
-    elseif($_SERVER["PHP_SELF"] == "http://admin.kmjysm.cn/index.php"){
-        header("Location: admin.html");
-    }
-    elseif($_SERVER["PHP_SELF"] == "http://study.kmjysm.cn/index.php"){
-        header("Location: index3.html");
-    }
-    exit();
+<?php    echo $_SERVER["SERVER_NAME"];    if($_SERVER["SERVER_NAME"] == "kmjysm.cn"||$_SERVER["SERVER_NAME"] == "kmjysm.cn/index.php"||$_SERVER["SERVER_NAME"] == "www.kmjysm.cn"||$_SERVER["SERVER_NAME"] == "www.kmjysm.cn/index.php"){        header('HTTP/1.1 301 Moved Permanently');        header("Location: http://kmjysm.cn/index2.html");        die();    }    elseif($_SERVER["SERVER_NAME"] == "admin.kmjysm.cn"){        header('HTTP/1.1 301 Moved Permanently');        header("Location: http://admin.kmjysm.cn/admin.php");        die();    }    elseif($_SERVER["SERVER_NAME"] == "study.kmjysm.cn"){        header('HTTP/1.1 301 Moved Permanently');        header("Location: http://study.kmjysm.cn/index3.html");        die();    }    else{        echo "选择结果没得";    }    exit();?>

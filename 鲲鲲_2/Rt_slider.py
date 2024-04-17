@@ -149,7 +149,7 @@ class bilibili_slider:
                 if print_way == "PQ":
                     kwargs["Qt进度条"].setMaximum(total)
 
-                for data in s.iter_content(chunk_size=1024):
+                for data in s.iter_content(chunk_size=1024 * 1024 * 3):
                     if times == 0:
                         dt = time.time()
                     times += 1

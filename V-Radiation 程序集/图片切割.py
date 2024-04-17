@@ -8,7 +8,6 @@ print(img.size)
 切割份数 = int(input())
 图片扩大倍数 = int(input())
 图片列表 = []
-
 for i in range(切割份数):
     print("正在分割图片,序列" + str(i + 1) + "保存文件夹" + asksave + "格式：jpg")
     大小 = int(img.size[1]/切割份数)

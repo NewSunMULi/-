@@ -2,37 +2,37 @@
 <data name="plan">
     <now>
         <major>
-            <ch>99</ch>
-            <mt>118</mt>
-            <en>32</en>
+            <ch>98</ch>
+            <mt>99</mt>
+            <en>62</en>
         </major>
         <science>
-            <ph>55</ph>
-            <ob>74</ob>
-            <chr>50</chr>
+            <ph>63</ph>
+            <ob>62</ob>
+            <chr>74</chr>
         </science>
     </now>
     <want>
         <major>
-            <ch>105</ch>
-            <mt>135</mt>
-            <en>90</en>
+            <ch>110</ch>
+            <mt>120</mt>
+            <en>72</en>
         </major>
         <science>
-            <ph>95</ph>
-            <ob>95</ob>
-            <chr>95</chr>
+            <ph>90</ph>
+            <ob>80</ob>
+            <chr>80</chr>
         </science>
     </want>
     <full>
         <major>
             <ch>150</ch>
             <mt>150</mt>
-            <en>150</en>
+            <en>120</en>
         </major>
         <science>
-            <ph>100</ph>
-            <ob>100</ob>
+            <ph>110</ph>
+            <ob>90</ob>
             <chr>100</chr>
         </science>
     </full>

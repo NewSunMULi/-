@@ -9,7 +9,7 @@ x = []
 m = 0
 ci = []
 
-for i in range(10000000):
+for i in range(100000):
     g += 1
     x.append(i + 1)
     f = 米FA游游戏抽卡().崩坏3抽卡(相对次数=g, 卡池类型="扩充补给")

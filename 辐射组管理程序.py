@@ -13,7 +13,7 @@ list2 = []
 list3 = []
 active = False
 UID = 0000000000
-科目代码 = "cy"
+科目代码 = "ch"
 可查看 = False
 userName = ""
 image1 = PhotoImage(file="10WST.gif")
